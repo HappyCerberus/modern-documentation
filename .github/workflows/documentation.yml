@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  doxygen:
+  documentation:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repo
@@ -19,7 +19,7 @@ jobs:
       - name: Process the Doxygen output using Sphinx
         uses: ammaraskar/sphinx-action@master
         with:
-          build-command: "sphinx-build -b html . sphinx -w /tmp/sphinx-log"
+          build-command: "sphinx-build -b html docs docs/sphinx"
           docs-folder: 'docs/'
       - name: Deploy to Github pages
         uses: peaceiris/actions-gh-pages@v3
