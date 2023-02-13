@@ -20,9 +20,8 @@ jobs:
         uses: ammaraskar/sphinx-action@master
         with:
           docs-folder: 'docs/'
-          build-command: "sphinx-build -b html . sphinx"
       - name: Deploy to Github pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/sphinx
+          publish_dir: ./docs/_build/html
