@@ -19,9 +19,10 @@ jobs:
       - name: Process the Doxygen output using Sphinx
         uses: ammaraskar/sphinx-action@master
         with:
+          build-command: "sphinx-build -b html . sphinx -w /tmp/sphinx-log"
           docs-folder: 'docs/'
       - name: Deploy to Github pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/_build/html
+          publish_dir: ./docs/sphinx
