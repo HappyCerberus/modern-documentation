@@ -19,7 +19,8 @@ jobs:
       - name: Process the Doxygen output using Sphinx
         uses: ammaraskar/sphinx-action@master
         with:
-          build-command: "sphinx-build -Dbreathe_projects.ModernDoc=xml -b html docs docs/sphinx"
+          docs-folder: 'docs/'
+          build-command: "sphinx-build -b html . sphinx"
       - name: Deploy to Github pages
         uses: peaceiris/actions-gh-pages@v3
         with:

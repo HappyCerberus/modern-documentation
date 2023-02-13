@@ -14,6 +14,7 @@ author = 'Šimon Tóth'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [ "breathe" ]
+breathe_projects = {"ModernDoc":"xml"}
 breathe_default_project = "ModernDoc"
 
 templates_path = ['_templates']
