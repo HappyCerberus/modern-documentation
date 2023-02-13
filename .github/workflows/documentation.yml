@@ -1,0 +1,27 @@
+name: Generate and publish documentation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  doxygen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v3
+      - name: Generate Doxygen documentation
+        uses: mattnotmitt/doxygen-action@v1.9.5
+        with:
+          working-directory: 'src/'
+          doxyfile-path: 'docs/'
+      - name: Process the Doxygen output using Sphinx
+        uses: ammaraskar/sphinx-action@master
+        with:
+          build-command: "sphinx-build -Dbreathe_projects.ModernDoc=xml -b html docs docs/sphinx"
+      - name: Deploy to Github pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/sphinx
