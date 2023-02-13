@@ -15,7 +15,7 @@ jobs:
         uses: mattnotmitt/doxygen-action@v1.9.5
         with:
           working-directory: 'src/'
-          doxyfile-path: 'docs/Doxyfile'
+          doxyfile-path: '../docs/Doxyfile'
       - name: Process the Doxygen output using Sphinx
         uses: ammaraskar/sphinx-action@master
         with:
