@@ -17,6 +17,12 @@ extensions = [ "breathe", "exhale" ]
 breathe_projects = {"ModernDoc":"xml"}
 breathe_default_project = "ModernDoc"
 
+exhale_args = {
+    "containmentFolder": "./api",
+    "rootFileName": "library_root.rst",
+    "doxygenStripFromPath": "../src",
+}
+
 templates_path = ['_templates']
 exclude_patterns = []
 
