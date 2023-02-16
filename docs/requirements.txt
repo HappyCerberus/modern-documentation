@@ -1,6 +1,4 @@
 breathe
-sphinx==5.3.0
-docutils>=0.19
-sphinx_rtd_theme
+sphinx
 sphinx_book_theme
 exhale
