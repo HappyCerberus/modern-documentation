@@ -1,0 +1,20 @@
+
+.. _program_listing_file_main.cc:
+
+Program Listing for File main.cc
+================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_main.cc>` (``main.cc``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   #include "type.h"
+   
+   int main() {
+       // This is a simple example:
+       MyType a, b;
+       a.foo();
+       b.foo();
+   }

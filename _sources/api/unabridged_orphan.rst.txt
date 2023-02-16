@@ -16,6 +16,11 @@ Files
 .. toctree::
    :maxdepth: 5
 
+   file_main.cc.rst
+
+.. toctree::
+   :maxdepth: 5
+
    file_type.cc.rst
 
 .. toctree::

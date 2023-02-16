@@ -1,15 +1,21 @@
-.. Modern Documentation documentation master file, created by
-   sphinx-quickstart on Mon Feb 13 13:52:17 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Documentation example
+=====================
 
-Welcome to Modern Documentation's documentation!
-================================================
+This document demonstrates the out-of-code documentation, which is perfect for the example-first documentation style.
 
-Section 1
-=========
+Some important topic
+====================
 
-abcdefg
+When needed, different parts of the API can be pulled in as references:
+
+.. doxygenfunction:: function
+
+We can pull in parts of the code as examples:
+
+.. literalinclude:: main.cc
+   :language: cpp
+   :start-line: 4
+   :end-line: 7
 
 Section 2
 =========

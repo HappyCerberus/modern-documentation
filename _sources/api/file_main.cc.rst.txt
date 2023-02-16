@@ -1,0 +1,40 @@
+
+.. _file_main.cc:
+
+File main.cc
+============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``main.cc``)
+------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_main.cc.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``type.h`` (:ref:`file_type.h`)
+
+
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_main_8cc_1ae66f6b31b5ad750f1fe042a706a4e3d4`
+
