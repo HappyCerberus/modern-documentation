@@ -13,8 +13,11 @@ Some extended information:
 An inline example for MyType.
 
 .. code-block:: cpp
+    :linenos:
+
     MyType x;
     x.foo();
+
 \endverbatim
 */
 struct MyType {
