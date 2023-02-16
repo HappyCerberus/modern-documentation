@@ -35,6 +35,3 @@ html_theme_options = {
     "repository_url": "https://github.com/HappyCerberus/modern-documentation",
     "use_repository_button": True,
 }
-html_sidebars = {
-    "**": ["localtoc.html", "globaltoc.html"]
-}

@@ -6,20 +6,19 @@
 Welcome to Modern Documentation's documentation!
 ================================================
 
+Section 1
+=========
+
+abcdefg
+
+Section 2
+=========
+
+kfndkfnaknf
+
 .. toctree::
    :maxdepth: 2
 
    self
    api/library_root
-
-## Section 1
-
-abcdefg
-
-## Section 2
-
-kfndkfnaknf
-
-
-* :ref:`genindex`
-* :ref:`modindex`
+   other
