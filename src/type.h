@@ -24,3 +24,20 @@ struct MyType {
     /** \brief Do a lot of foo */
     void foo();
 };
+
+
+/** \brief Some more advanced Doxygen 
+
+This description is using purely Doxygen formatting unlike MyType.
+
+\see MyType
+
+1. A Markdown list
+2. Followed by a code sample
+
+\code{cpp}
+OtherType x;
+\endcode
+*/
+struct OtherType {
+};
