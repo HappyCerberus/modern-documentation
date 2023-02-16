@@ -15,3 +15,7 @@ Program Listing for File type.h
    struct MyType {
        void foo();
    };
+   
+   
+   struct OtherType {
+   };

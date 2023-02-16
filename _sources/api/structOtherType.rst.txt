@@ -1,0 +1,17 @@
+.. _exhale_struct_structOtherType:
+
+Struct OtherType
+================
+
+- Defined in :ref:`file_type.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: OtherType
+   :project: ModernDoc
+   :members:
+   :protected-members:
+   :undoc-members:

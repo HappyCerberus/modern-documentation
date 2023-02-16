@@ -38,3 +38,5 @@ Classes
 
 - :ref:`exhale_struct_structMyType`
 
+- :ref:`exhale_struct_structOtherType`
+
