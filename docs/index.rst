@@ -17,4 +17,4 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-.. doxygenindex::
+api/library_root
