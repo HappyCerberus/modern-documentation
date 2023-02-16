@@ -8,6 +8,7 @@ This is a longer description for a custom type.
 Some extended information:
 
 .. warning::
+
     This is a warning.
 
 An inline example for MyType.
