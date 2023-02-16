@@ -11,4 +11,14 @@ Files
 .. toctree::
    :maxdepth: 5
 
-   file_test.h.rst
+   file_helpers.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_type.cc.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_type.h.rst

@@ -1,0 +1,34 @@
+
+.. _file_helpers.h:
+
+File helpers.h
+==============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``helpers.h``)
+--------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_helpers.h.rst
+
+
+
+
+
+
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_helpers_8h_1ab2f6ba8fde963afd5c349b7817840ae6`
+

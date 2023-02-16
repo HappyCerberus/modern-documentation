@@ -1,0 +1,17 @@
+.. _exhale_struct_structMyType:
+
+Struct MyType
+=============
+
+- Defined in :ref:`file_type.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: MyType
+   :project: ModernDoc
+   :members:
+   :protected-members:
+   :undoc-members:

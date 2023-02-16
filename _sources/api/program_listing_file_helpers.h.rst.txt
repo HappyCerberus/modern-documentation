@@ -1,0 +1,14 @@
+
+.. _program_listing_file_helpers.h:
+
+Program Listing for File helpers.h
+==================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_helpers.h>` (``helpers.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   int function(int x, int y, double z) { }

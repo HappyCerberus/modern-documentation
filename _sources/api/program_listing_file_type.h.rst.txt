@@ -1,0 +1,17 @@
+
+.. _program_listing_file_type.h:
+
+Program Listing for File type.h
+===============================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_type.h>` (``type.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   #pragma once
+   
+   struct MyType {
+       void foo();
+   };

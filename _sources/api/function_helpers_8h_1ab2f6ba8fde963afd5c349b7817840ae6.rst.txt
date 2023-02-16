@@ -1,0 +1,14 @@
+.. _exhale_function_helpers_8h_1ab2f6ba8fde963afd5c349b7817840ae6:
+
+Function function
+=================
+
+- Defined in :ref:`file_helpers.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: function(int, int, double)
+   :project: ModernDoc
