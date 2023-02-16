@@ -119,7 +119,7 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="other.html">
-   Another file
+   Something else
   </a>
  </li>
 </ul>
@@ -278,8 +278,8 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#section-2">
-   Section 2
+  <a class="reference internal nav-link" href="#working-with-multi-file">
+   Working with multi-file
   </a>
  </li>
 </ul>
@@ -312,8 +312,8 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#section-2">
-   Section 2
+  <a class="reference internal nav-link" href="#working-with-multi-file">
+   Working with multi-file
   </a>
  </li>
 </ul>
@@ -352,11 +352,13 @@ title="Print to PDF"
 </dl>
 </dd></dl>
 
-<p>We can pull in parts of the code as examples:</p>
+<p>We can also pull in parts of the code as examples:</p>
 </div>
-<div class="section" id="section-2">
-<h1>Section 2<a class="headerlink" href="#section-2" title="Permalink to this headline">#</a></h1>
-<p>kfndkfnaknf</p>
+<div class="section" id="working-with-multi-file">
+<h1>Working with multi-file<a class="headerlink" href="#working-with-multi-file" title="Permalink to this headline">#</a></h1>
+<p>A slightly confusing aspect of Sphinx is that for multi-file documentation to link to each section correctly, each file needs to be listed in the root table of contents.</p>
+<p>This can be customized, which is a necessity for dynamic blog-style content, but it requires adjusting the sidebar code.</p>
+<p>A typical place to put this root table of content is at the end of the index file, and it can also be hidden.</p>
 <div class="toctree-wrapper compound">
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Documentation example</a></li>
@@ -366,8 +368,7 @@ title="Print to PDF"
 <li class="toctree-l2"><a class="reference internal" href="api/library_root.html#full-api">Full API</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="other.html">Another file</a></li>
-<li class="toctree-l1"><a class="reference internal" href="other.html#with-a-section">With a Section</a></li>
+<li class="toctree-l1"><a class="reference internal" href="other.html">Something else</a></li>
 </ul>
 </div>
 </div>
