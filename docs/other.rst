@@ -1,6 +1,8 @@
 Something else
 ==============
 
+This section exists to demonstrate multi-file documentation.
+
 Another part of the documentation that talks about something else.
 
 .. doxygenstruct:: MyType
