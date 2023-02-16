@@ -14,8 +14,7 @@ We can also pull in parts of the code as examples:
 
 .. literalinclude:: ../src/main.cc
    :language: cpp
-   :start-line: 4
-   :end-line: 7
+   :lines: 4-7
 
 Working with multi-file
 =======================
