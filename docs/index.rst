@@ -9,6 +9,7 @@ Welcome to Modern Documentation's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   api/library_root
 
 Indices and tables
 ==================
@@ -16,5 +17,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
-api/library_root
