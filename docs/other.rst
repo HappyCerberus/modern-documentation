@@ -3,7 +3,7 @@ Something else
 
 Another part of the documentation that talks about something else.
 
-.. doxygenclass:: MyType
+.. doxygenstruct:: MyType
 
 .. warning::
 
@@ -13,4 +13,4 @@ Another part of the documentation that talks about something else.
 
     This is an error block.
 
-.. doxygenclass:: OtherType
+.. doxygenstruct:: OtherType
