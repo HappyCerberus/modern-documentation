@@ -1,12 +1,17 @@
 #pragma once
 
-/** !brief A custom type
+/** \brief A custom type
 
 This is a longer description for a custom type.
 
 \verbatim embed:rst
+Some extended information:
+
+.. warning::
+    This is a warning.
+
 An inline example for MyType.
- 
+
 .. code-block:: cpp
     MyType x;
     x.foo();
