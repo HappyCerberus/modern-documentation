@@ -36,5 +36,5 @@ html_theme_options = {
     "use_repository_button": True,
 }
 html_sidebars = {
-    "**": ["sbt-sidebar-nav.html"]
+    "**": ["localtoc.html", "globaltoc.html"]
 }
