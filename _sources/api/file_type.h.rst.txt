@@ -27,8 +27,6 @@ Included By
 -----------
 
 
-- :ref:`file_main.cc`
-
 - :ref:`file_type.cc`
 
 

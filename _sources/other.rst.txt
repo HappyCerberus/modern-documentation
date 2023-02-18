@@ -16,3 +16,10 @@ Another part of the documentation that talks about something else.
     This is an error block.
 
 .. doxygenstruct:: OtherType
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   self
+   other_subpage
