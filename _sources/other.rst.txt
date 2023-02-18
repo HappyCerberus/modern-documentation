@@ -21,5 +21,4 @@ Another part of the documentation that talks about something else.
    :maxdepth: 1
    :hidden:
 
-   self
    other_subpage
